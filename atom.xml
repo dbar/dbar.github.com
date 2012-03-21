@@ -4,7 +4,7 @@
   <title><![CDATA[dbar on github]]></title>
   <link href="http://dbar.github.com/atom.xml" rel="self"/>
   <link href="http://dbar.github.com/"/>
-  <updated>2012-03-17T19:33:44+00:00</updated>
+  <updated>2012-03-21T04:23:12+00:00</updated>
   <id>http://dbar.github.com/</id>
   <author>
     <name><![CDATA[Danny Bartlett]]></name>
@@ -14,10 +14,47 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Plans for a Post Apocolyptic Zombie Rogielike]]></title>
+    <link href="http://dbar.github.com/blog/2012/03/21/new-zombie-rl/"/>
+    <updated>2012-03-21T04:19:00+00:00</updated>
+    <id>http://dbar.github.com/blog/2012/03/21/new-zombie-rl</id>
+    <content type="html"><![CDATA[<p>Sometime soon (likely over the summer) I plan start my own rogulike using Python and the <a href="http://doryen.eptalys.net/libtcod/">libtcod</a> library. I initially had plans to design a roguelike set in a post-apocalyptic, zombie ruled world; but the I found out about <a href="http://whalesdev.com/">Cataclysm</a>. Despite this, I aim to continue with this theme.</p>
+
+<blockquote><p>I prefer zombies. My human characters are the worst in my films. Zombies don’t lie, they have no hidden agendas, you know what they are, you can at least respect them for that. Humans work with twists, you never know what they’re thinking. The bad ones, are always the humans.</p>
+
+<p><cite>George A. Romero</cite></p></blockquote>
+
+<p>One aspect of zombie genre which I have not seen so much in the games industry is how people interact with eachother during the threat of the zombie menace. How I feel with Romero&#8217;s films, and 28 days is that underneath all the gore on the surface, there is a core theme of how humanity will cope with the threat. Whilst this is mildly explored in games so far, I think it should be better. Whilst we know that zombies are relentless to feed on their pray, we do not know how the humans, the people around us will react to the situation. This is a relatively unexplored theme in games, and I draw inspiration from this from <a href="https://en.wikipedia.org/wiki/The_Walking_Dead_(comics">The Walking Dead comics</a>) which tackles this theme extrememly well.</p>
+
+<p>I aim to make a zombie themed roguelike, where human NPCs are still left surviving in the world with you. You can chose to go solo if you want, or you can chose to team up with other survivors, gaining their trust and protecting eachother from not only the threat of the zombie outbreak, but from other hostile groups of human survivors.</p>
+
+<p>Planned features include:</p>
+
+<ul>
+<li>Curses styled interface using <a href="http://doryen.eptalys.net/libtcod/">libtcod</a></li>
+<li>Massive Procedurally Generated World</li>
+<li>Traditional Zombies (ala The Walking Dead)</li>
+<li>Trust Element - Your actions will dictate how others will see you</li>
+<li>Emotion - a range a moods that will effect people differently</li>
+<li>NPC Dialogue - I want to make the diaglogue somewhat convincing and not contrived</li>
+<li>Possibly to be based in the UK, where there is no gun-culture and
+firearms are hard to come by</li>
+<li>Suburban &amp; Rural Towns</li>
+</ul>
+
+
+<p>I will try to use libtcod to my fullest to make an ncurses based
+interface that will be easier to grasp than a traditional CLI rogulike,
+without sacrificing the capability of this game being run in a terminal
+window.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[New Dev Blog]]></title>
-    <link href="http://dbar.github.com/blog/2012/03/17/new-post/"/>
+    <link href="http://dbar.github.com/blog/2012/03/17/new-dev/"/>
     <updated>2012-03-17T19:27:00+00:00</updated>
-    <id>http://dbar.github.com/blog/2012/03/17/new-post</id>
+    <id>http://dbar.github.com/blog/2012/03/17/new-dev</id>
     <content type="html"><![CDATA[<p>So I have decided to launch a dev blog to compile all my hobby code I am working on. I have decided to use <a href="http://octopress.org">Octopress</a> to generate the site to host here on github. It&#8217;s gonna be a bit sparse here at the moment, but in time there will be some interesting projects, such as a rogulike I am currently working on.</p>
 ]]></content>
   </entry>
